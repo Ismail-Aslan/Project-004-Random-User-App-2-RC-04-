@@ -1,3 +1,14 @@
 .App {
   text-align: center;
 }
+.banner-line {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 33%;
+  
+}
+.app_banner-line {
+  background-color: coral;
+
+}
