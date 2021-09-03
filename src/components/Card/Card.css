@@ -53,3 +53,19 @@
      
     
 }
+.btn-container {
+    display: inline-block;
+    padding: 5px 5%;
+    
+}
+.btn-img {
+    width: 40px;
+    height: 40px;
+    border: solid white;
+    border-radius: 20px;
+    padding: 2px;
+    box-shadow: 0 0 5px 1px dimgrey;
+}
+.btn-img:hover {
+    box-shadow: 0 0 5px 1px black;
+}
