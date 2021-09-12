@@ -1,0 +1,20 @@
+table {
+    width: 80%;
+    margin: auto;
+    border: solid;
+}
+
+thead {
+    background-color: chocolate;
+}
+
+th {
+    border: none;
+    padding: 8px;
+}
+
+td {
+    padding: 3px 0;
+    border-bottom: 1px solid black;
+
+}

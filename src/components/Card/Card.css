@@ -1,7 +1,7 @@
 .card-container {
     display: grid;
 
-    grid-template-rows: 120px 200px;
+    grid-template-rows: 120px auto;
     grid-template-areas: "banner" "main";
     width: 80%;
     border: solid red;
@@ -24,6 +24,7 @@
 .main-container {
     grid-area: main;
     height: 100%;
+    background-color: white;
   
 }
 
@@ -49,8 +50,8 @@
      margin-top: 95px;
      font-size: 1.2rem;
 }
-.card-sub-heading {
-     
+.buttons-container {
+    margin-top: 15px;
     
 }
 .btn-container {
@@ -68,4 +69,14 @@
 }
 .btn-img:hover {
     box-shadow: 0 0 5px 1px black;
+}
+
+.btn-user {
+    display: inline-block;
+    padding: 10px;
+    margin: 10px 20px;
+}
+
+th{
+    border: solid;
 }
